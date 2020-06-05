@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => '127.0.0.1',
+    'database_port' => '',
+    'database_name' => 'mitienda',
+    'database_user' => 'root',
+    'database_password' => '',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'c7GPbwmcGfiP3tRHLVUxh51x25S7Z77SWpAnVOU3E0RJApR4NWfn1aeA',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2020-06-04',
+    'locale' => 'es-ES',
+    'use_debug_toolbar' => true,
+    'cookie_key' => 'ZTQXPFgroYaO7at3cpkXytLyxhSEMyYD7dUgiey0vGrD27repQ2WBU9H',
+    'cookie_iv' => 'E53D4zGL',
+    'new_cookie_key' => 'def0000033072fb98e3007675573defa788c6369d04395e95ecb29b10acdf4095952951c8a2f93cf543578aa76c12ee181e2525ec84371532fa448fb4e9f8b23c2b00bfa',
+  ),
+);
