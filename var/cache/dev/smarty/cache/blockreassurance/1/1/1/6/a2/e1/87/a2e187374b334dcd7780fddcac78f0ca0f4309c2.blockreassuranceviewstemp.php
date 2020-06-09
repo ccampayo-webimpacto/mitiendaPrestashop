@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-05 10:21:54
+/* Smarty version 3.1.33, created on 2020-06-09 10:05:28
   from 'module:blockreassuranceviewstemp' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5eda00a2403d02_20103992',
+  'unifunc' => 'content_5edf42c840f7a0_92842091',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_5eda00a2403d02_20103992 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5edf42c840f7a0_92842091 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
 ));
 ?><!-- begin C:\xampp\htdocs\mitienda/themes/classic/modules/blockreassurance/views/templates/hook/blockreassurance.tpl -->  <div id="block-reassurance">

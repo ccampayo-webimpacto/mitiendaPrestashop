@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-05 10:21:53
+/* Smarty version 3.1.33, created on 2020-06-09 10:05:27
   from 'C:\xampp\htdocs\mitienda\themes\classic\templates\catalog\_partials\product-variants.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5eda00a165ab52_50798116',
+  'unifunc' => 'content_5edf42c75161e4_98107952',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5eda00a165ab52_50798116 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5edf42c75161e4_98107952 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="product-variants">
   <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['groups']->value, 'group', false, 'id_attribute_group');

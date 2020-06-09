@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-05 10:21:53
+/* Smarty version 3.1.33, created on 2020-06-09 10:05:27
   from 'module:pssharebuttonsviewstempla' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5eda00a1dd3316_76063723',
+  'unifunc' => 'content_5edf42c7e256a4_95115467',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,24 +20,24 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5eda00a1dd3316_76063723 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5edf42c7e256a4_95115467 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
-$_smarty_tpl->compiled->nocache_hash = '2553642315eda00a1dcf519_27845460';
+$_smarty_tpl->compiled->nocache_hash = '17391744435edf42c7e21447_63699823';
 ?>
 <!-- begin C:\xampp\htdocs\mitienda/themes/classic/modules/ps_sharebuttons/views/templates/hook/ps_sharebuttons.tpl -->
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_15655965785eda00a1dd0187_58412376', 'social_sharing');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_9501534215edf42c7e21e57_61475968', 'social_sharing');
 ?>
 
 <!-- end C:\xampp\htdocs\mitienda/themes/classic/modules/ps_sharebuttons/views/templates/hook/ps_sharebuttons.tpl --><?php }
 /* {block 'social_sharing'} */
-class Block_15655965785eda00a1dd0187_58412376 extends Smarty_Internal_Block
+class Block_9501534215edf42c7e21e57_61475968 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'social_sharing' => 
   array (
-    0 => 'Block_15655965785eda00a1dd0187_58412376',
+    0 => 'Block_9501534215edf42c7e21e57_61475968',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
