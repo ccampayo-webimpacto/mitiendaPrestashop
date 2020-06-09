@@ -6,12 +6,28 @@
     <language>es</language>
      <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>10 Módulos para mejorar la experiencia del cliente y tu tasa de conversión</title>
+    <link>https://www.prestashop.com/es/blog/modulos-experiencia-del-cliente</link>
+    <description>Con el fin de ayudarte a optimizar la tasa de conversión de tu tienda a través de una mejor UX (experiencia del usuario), hemos seleccionado para ti algunos módulos disponibles en </description>
+     <pubDate>Fri, 05 Jun 2020 16:26:50 +0200</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/modulos-experiencia-del-cliente</guid>
+  </item>
+  <item>
     <title>Congreso online: ReStart &amp;amp; Scale con PrestaShop [eCommerce Fase 2]</title>
     <link>https://www.prestashop.com/es/blog/re-start-and-scale</link>
     <description>El sector del eCommerce está inmerso en una fase crucial, en el que el desarrollo empresarial está vinculado estrechamente al ámbito digital, el cual está motivado y potenciado principalmente por e</description>
      <pubDate>Tue, 02 Jun 2020 12:29:01 +0200</pubDate>
  <dc:creator>Jorge González Marcos</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/es/blog/re-start-and-scale</guid>
+  </item>
+  <item>
+    <title>5 Mejores Módulos para mejorar tu visibilidad y potenciar tu cuenta de Instagram</title>
+    <link>https://www.prestashop.com/es/blog/mejores-modulos-instagram</link>
+    <description>¿No tienes buena visibilidad en Instagram?</description>
+     <pubDate>Mon, 01 Jun 2020 18:05:51 +0200</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/mejores-modulos-instagram</guid>
   </item>
   <item>
     <title>PrestaShop 1.7.7.0 (Beta) ¿en qué consiste la nueva versión y qué mejoras añade?</title>
@@ -69,22 +85,6 @@
      <pubDate>Sat, 09 May 2020 20:10:25 +0200</pubDate>
  <dc:creator>Jorge González Marcos</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/es/blog/modulos-aumentar-tasa-de-conversion</guid>
-  </item>
-  <item>
-    <title>Snapchat para eCommerce: Ventajas de esta red social que te ayudarán a conseguir más ventas</title>
-    <link>https://www.prestashop.com/es/blog/snapchat-para-ecommerce</link>
-    <description>Actualmente nos encontramos en una era en la que estamos comunicados de manera digital, y con el pasar de los años cada vez nos volvemos más dependientes de la misma.</description>
-     <pubDate>Wed, 06 May 2020 18:15:20 +0200</pubDate>
- <dc:creator>Mariela Quiroga</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/es/blog/snapchat-para-ecommerce</guid>
-  </item>
-  <item>
-    <title>¿Cómo puede un comercio de barrio iniciarse en el sector eCommerce?</title>
-    <link>https://www.prestashop.com/es/blog/comercio-de-barrio-iniciar-ecommerce</link>
-    <description>¿Tienes una tienda &quot;offline&quot; o comercio físico y estás pensando en pasarte al Online con un eCommerce? Quédate porque analizaré contigo algunos puntos que necesitas implementar.</description>
-     <pubDate>Wed, 06 May 2020 00:48:35 +0200</pubDate>
- <dc:creator>Emilio de la Barreda Martin</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/es/blog/comercio-de-barrio-iniciar-ecommerce</guid>
   </item>
   </channel>
 </rss>

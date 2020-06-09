@@ -34,10 +34,39 @@ class Mimodulo extends Module{
 		return true;
 	}
 	public function hookDisplayTop(){
+		// $curl = curl_init();
+
+		// curl_setopt_array($curl, array(
+		//   CURLOPT_URL => "http://localhost:8000/api/productos?page=1",
+		//   CURLOPT_RETURNTRANSFER => true,
+		//   CURLOPT_ENCODING => "",
+		//   CURLOPT_MAXREDIRS => 10,
+		//   CURLOPT_TIMEOUT => 0,
+		//   CURLOPT_FOLLOWLOCATION => true,
+		//   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+		//   CURLOPT_CUSTOMREQUEST => "GET",
+		// ));
+		// curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+		// curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+		// $response = curl_exec($curl);
+		// // dump(curl_error($curl));
+		// curl_close($curl);
+		// // dump($response);
+		// // $n=1;
+		// // dump($n);
+		// $this->smarty->assign(array(
+        //     'var' => 'top',
+		// 	// 'variable1' => 'valor',
+        //     'variable1' => $response
+        //     )
+        // );
+		// return $this->display(__FILE__, 'views/templates/hook/mimodulo.tpl');
+	}
+	public function hookDisplayFooterProduct(){
 		$curl = curl_init();
 
 		curl_setopt_array($curl, array(
-		  CURLOPT_URL => "https://localhost:8000/api/productos?page=1",
+		  CURLOPT_URL => "http://localhost:8000/api/productos?page=1",
 		  CURLOPT_RETURNTRANSFER => true,
 		  CURLOPT_ENCODING => "",
 		  CURLOPT_MAXREDIRS => 10,
@@ -46,52 +75,49 @@ class Mimodulo extends Module{
 		  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 		  CURLOPT_CUSTOMREQUEST => "GET",
 		));
-
+		curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+		curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
 		$response = curl_exec($curl);
-		dump(curl_error($curl));
+		// dump(curl_error($curl));
 		curl_close($curl);
-		dump($response);
-		$n=1;
-		dump($n);
+		// dump($response);
+		// $n=1;
+		// dump($n);
 		$this->smarty->assign(array(
             'var' => 'top',
 			// 'variable1' => 'valor',
-            'variable1' => $n
+            'variable1' => $response
             )
         );
-		//echo $response;
 		return $this->display(__FILE__, 'views/templates/hook/mimodulo.tpl');
-		//return $this->display(__FILE__, '<h1>'.$response.'</h1>');
 	}
-	public function hookDisplayFooterProduct(){
-		//return $this->display(__FILE__, 'views/templates/hook/mimodulo.tpl');
-	}
-	// public function  hookActionOrderReturn{
+	//actionObjectOrderReturnAddAfter
+	public function  hookActionOrderReturn(){
 		
-	// 	$curl = curl_init();
+		// $curl = curl_init();
 
-	// 	curl_setopt_array($curl, array(
-	// 	  CURLOPT_URL => "https://localhost:8000/api/orders",
-	// 	  CURLOPT_RETURNTRANSFER => true,
-	// 	  CURLOPT_ENCODING => "",
-	// 	  CURLOPT_MAXREDIRS => 10,
-	// 	  CURLOPT_TIMEOUT => 0,
-	// 	  CURLOPT_FOLLOWLOCATION => true,
-	// 	  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-	// 	  CURLOPT_CUSTOMREQUEST => "POST",
-	// 	  CURLOPT_POSTFIELDS =>"{\r\n  \"price\": 0,\r\n  \"mailingAddress\": \"\",\r\n  \"billingAddress\": \"\",\r\n  \"paid\": true,\r\n  \"purchaseDate\": \"2020-06-05T07:16:15.474Z\",\r\n  \"shippingDate\": \"2020-06-05T07:16:15.474Z\",\r\n  \"sent\": true,\r\n  \"trackingNumber\": \"9\",\r\n  \"user\": \"https://localhost:8000/api/users/2\"\r\n}",
-	// 	  CURLOPT_HTTPHEADER => array(
-	// 		"Content-Type: application/json",
-	// 		"Cookie: sf_redirect=%7B%22token%22%3A%22a57566%22%2C%22route%22%3A%22api_orders_post_collection%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%22api_platform.action.post_collection%22%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D"
-	// 	  ),
-	// 	));
+		// curl_setopt_array($curl, array(
+		//   CURLOPT_URL => "http://localhost:8000/api/orders",
+		//   CURLOPT_RETURNTRANSFER => true,
+		//   CURLOPT_ENCODING => "",
+		//   CURLOPT_MAXREDIRS => 10,
+		//   CURLOPT_TIMEOUT => 0,
+		//   CURLOPT_FOLLOWLOCATION => true,
+		//   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+		//   CURLOPT_CUSTOMREQUEST => "POST",
+		//   CURLOPT_POSTFIELDS =>"{\r\n  \"price\": 0,\r\n  \"mailingAddress\": \"\",\r\n  \"billingAddress\": \"\",\r\n  \"paid\": true,\r\n  \"purchaseDate\": \"2020-06-05T07:16:15.474Z\",\r\n  \"shippingDate\": \"2020-06-05T07:16:15.474Z\",\r\n  \"sent\": true,\r\n  \"trackingNumber\": \"9\",\r\n  \"user\": \"https://localhost:8000/api/users/2\"\r\n}",
+		//   CURLOPT_HTTPHEADER => array(
+		// 	"Content-Type: application/json",
+		// 	"Cookie: sf_redirect=%7B%22token%22%3A%22a57566%22%2C%22route%22%3A%22api_orders_post_collection%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%22api_platform.action.post_collection%22%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D"
+		//   ),
+		// ));
 
-	// 	$response = curl_exec($curl);
+		// $response = curl_exec($curl);
 
-	// 	curl_close($curl);
-	// 	echo $response;
+		// curl_close($curl);
+		// echo $response;
 
-	// 	dump($response);
-	// }
+		// dump($response);
+	}
 	//hook -> displayProductAdditionalInfo
 }
